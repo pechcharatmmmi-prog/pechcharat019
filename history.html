@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติ - วิทยาลัยเทคนิคประจวบคีรีขันธ์</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 15px;
+            font-family: 'Sarabun', sans-serif;
+            background-color: #EAF6FF;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            background-color: #FFFFFF;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* เมนูรูปภาพ 4 รูป */
+        .nav-buttons-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 15px;
+            background-color: #BDE0FE;
+        }
+
+        .nav-buttons-grid a {
+            display: block;
+            width: 100%;
+        }
+
+        .nav-buttons-grid img {
+            width: 100%;
+            height: 120px;
+            object-fit: fill;
+            display: block;
+        }
+
+        /* ส่วนเนื้อหาประวัติ */
+        .history-content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* หัวข้อหลัก */
+        .page-title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            color: #005B96;
+            margin-bottom: 30px;
+        }
+
+        /* เส้นใต้หัวข้อ */
+        .page-title::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 4px;
+            background-color: #0077B6;
+            margin: 10px auto;
+        }
+
+        /* กล่องข้อความประวัติ */
+        .history-text-container {
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #EAF6FF;
+            border: 2px solid #BDE0FE;
+            border-radius: 12px;
+            line-height: 2;
+            color: #004B78;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .history-text-container p {
+            margin: 0 0 20px 0;
+        }
+
+        .history-text-container p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* เน้นข้อความ */
+        .highlight-blue {
+            color: #0077B6;
+            font-weight: bold;
+        }
+
+        /* หน้าจอโทรศัพท์ */
+        @media (max-width: 768px) {
+
+            .nav-buttons-grid {
+                gap: 5px;
+                padding: 10px;
+            }
+
+            .nav-buttons-grid img {
+                height: 75px;
+            }
+
+            .history-content {
+                padding: 20px;
+            }
+
+            .page-title {
+                font-size: 24px;
+            }
+
+            .history-text-container {
+                padding: 20px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- เมนูรูปภาพ 4 รูป -->
+    <div class="nav-buttons-grid">
+
+        <a href="index.html">
+            <img src="images/home.jpg" alt="หน้าแรก">
+        </a>
+
+        <a href="history.html">
+            <img src="images/History.jpg" alt="ประวัติวิทยาลัย">
+        </a>
+
+        <a href="courses.html">
+            <img src="images/courses.jpg" alt="หลักสูตร">
+        </a>
+
+        <a href="contact.html">
+            <img src="images/contact.png" alt="ติดต่อเรา">
+        </a>
+
+    </div>
+
+    <!-- เนื้อหาประวัติ -->
+    <div class="history-content">
+
+        <div class="page-title">
+            ประวัติวิทยาลัยเทคนิคประจวบคีรีขันธ์
+        </div>
+
+        <!-- ข้อมูลประวัติอยู่ตรงกลาง -->
+        <div class="history-text-container">
+
+            <p>
+                <span class="highlight-blue">
+                    วิทยาลัยเทคนิคประจวบคีรีขันธ์
+                </span>
+                มีประวัติความเป็นมายาวนาน เคียงคู่กับการพัฒนาการศึกษา
+                ทางวิชาชีพในจังหวัดประจวบคีรีขันธ์ เริ่มต้นจากการเป็น
+                [ใส่ชื่อสถานศึกษาเดิม] เมื่อ พ.ศ. [ใส่ปี พ.ศ. ที่ก่อตั้ง]
+                โดยมีวัตถุประสงค์เพื่อ
+                [ใส่วัตถุประสงค์หลักในการก่อตั้ง]
+            </p>
+
+            <p>
+                ในช่วงแรกของการก่อตั้ง ได้รับความอนุเคราะห์การใช้สถานที่จาก
+                [ใส่สถานที่เดิม] และเปิดสอนเพียงไม่กี่สาขาวิชา
+                ต่อมามีการขยายการศึกษา ก่อสร้างอาคารเรียน
+                และยกระดับฐานะสถานศึกษาอย่างต่อเนื่อง
+                จนกระทั่ง [ใส่ปี พ.ศ. ที่ยกฐานะเป็นวิทยาลัยเทคนิค]
+                จึงได้รับการยกฐานะเป็น
+                "วิทยาลัยเทคนิคประจวบคีรีขันธ์"
+            </p>
+
+            <p>
+                ตลอดระยะเวลาที่ผ่านมา วิทยาลัยฯ ผลิตบุคลากรที่มีคุณภาพ
+                ออกสู่สังคม สร้างรากฐานที่มั่นคงให้กับเยาวชน
+                และเป็นส่วนสำคัญในการขับเคลื่อนเศรษฐกิจของภูมิภาค
+                ด้วยปรัชญาการศึกษาที่เน้น
+                "สร้างคนดี มีทักษะ สู่อนาคตที่มั่นคง"
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

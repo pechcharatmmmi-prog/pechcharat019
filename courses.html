@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ติดต่อวิทยาลัยเทคนิคประจวบคีรีขันธ์</title>
+
+<style>
+
+/* ตั้งค่าพื้นฐาน */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAF6FF;
+    font-family: 'Sarabun', sans-serif;
+    padding: 15px;
+}
+
+/* กล่องเว็บไซต์ */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* เมนูรูปภาพ 4 รูป */
+.menu {
+    width: 25%;
+    padding: 5px;
+    background-color: #BDE0FE;
+}
+
+.menu img {
+    width: 100%;
+    height: 120px;
+    object-fit: fill;
+    display: block;
+}
+
+/* ส่วนเนื้อหา */
+.content {
+    padding: 35px 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #005B96;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #0077B6;
+    margin: 25px 0;
+}
+
+hr {
+    width: 80%;
+    height: 3px;
+    border: none;
+    background-color: #0077B6;
+    margin: auto;
+}
+
+/* ตารางข้อมูลติดต่อ */
+.contact-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid #0077B6;
+}
+
+.contact-table th {
+    background-color: #0077B6;
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+.contact-table td {
+    padding: 15px;
+    border: 1px solid #0077B6;
+    color: #004B78;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.contact-table td:first-child {
+    width: 35%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-table tr:nth-child(even) {
+    background-color: #EAF6FF;
+}
+
+.contact-table tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* กล่องข่าวสาร */
+.news-box {
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    background-color: #DCEEFF;
+    border: 2px solid #BDE0FE;
+    border-radius: 10px;
+    color: #004B78;
+    line-height: 2;
+}
+
+/* ลิงก์ */
+a {
+    color: #005B96;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0077B6;
+    text-decoration: underline;
+}
+
+/* ปุ่มกลับหน้าหลัก */
+.back-home {
+    display: inline-block;
+    background-color: #0077B6;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.back-home:hover {
+    background-color: #005B96;
+    color: white;
+    text-decoration: none;
+}
+
+/* ส่วนท้ายเว็บไซต์ */
+.footer {
+    background-color: #005B96;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+/* ปรับหน้าจอมือถือ */
+@media (max-width: 768px) {
+
+    body {
+        padding: 5px;
+    }
+
+    .menu {
+        padding: 3px;
+    }
+
+    .menu img {
+        height: 75px;
+    }
+
+    .content {
+        padding: 25px 8px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .contact-table,
+    .news-box {
+        width: 95%;
+    }
+
+    .contact-table td,
+    .contact-table th {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- เมนูรูปภาพ 4 รูป -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+
+<td class="menu">
+<a href="index.html">
+<img src="images/home.jpg" alt="หน้าแรก">
+</a>
+</td>
+
+<td class="menu">
+<a href="history.html">
+<img src="images/History.jpg" alt="ประวัติวิทยาลัย">
+</a>
+</td>
+
+<td class="menu">
+<a href="courses.html">
+<img src="images/courses.jpg" alt="หลักสูตร">
+</a>
+</td>
+
+<td class="menu">
+<a href="contact.html">
+<img src="images/contact.png" alt="ติดต่อเรา">
+</a>
+</td>
+
+</tr>
+</table>
+
+<!-- เนื้อหาติดต่อ -->
+<div class="content">
+
+<h1>ติดต่อวิทยาลัย</h1>
+
+<hr>
+
+<h2>วิทยาลัยเทคนิคประจวบคีรีขันธ์</h2>
+
+<br>
+
+<!-- ตารางข้อมูล -->
+<table class="contact-table">
+
+<tr>
+<th>ข้อมูลการติดต่อ</th>
+<th>รายละเอียด</th>
+</tr>
+
+<tr>
+<td>ชื่อสถานศึกษา</td>
+<td>วิทยาลัยเทคนิคประจวบคีรีขันธ์</td>
+</tr>
+
+<tr>
+<td>ที่อยู่</td>
+<td>
+ถนนสละชีพ ตำบลประจวบคีรีขันธ์
+อำเภอเมืองประจวบคีรีขันธ์
+จังหวัดประจวบคีรีขันธ์
+</td>
+</tr>
+
+<tr>
+<td>โทรศัพท์</td>
+<td>ติดต่อผ่านหมายเลขโทรศัพท์ของวิทยาลัย</td>
+</tr>
+
+<tr>
+<td>เว็บไซต์</td>
+<td>
+<a href="https://www.pktc.ac.th/" target="_blank">
+เว็บไซต์วิทยาลัยเทคนิคประจวบคีรีขันธ์
+</a>
+</td>
+</tr>
+
+</table>
+
+<br>
+
+<h2>ช่องทางการติดตามข่าวสาร</h2>
+
+<!-- กล่องข่าวสาร -->
+<div class="news-box">
+
+สามารถติดตามข่าวสาร ประกาศประชาสัมพันธ์
+และกิจกรรมต่าง ๆ ของวิทยาลัยได้ผ่านเว็บไซต์ทางการ
+
+<br>
+
+<a href="https://www.pktc.ac.th/" target="_blank">
+<b>เข้าสู่เว็บไซต์วิทยาลัย</b>
+</a>
+
+</div>
+
+<br>
+
+<a href="index.html" class="back-home">
+กลับสู่หน้าหลัก
+</a>
+
+</div>
+
+<!-- ส่วนท้าย -->
+<div class="footer">
+
+<h3>วิทยาลัยเทคนิคประจวบคีรีขันธ์</h3>
+
+<p>สถานศึกษาแห่งการเรียนรู้และพัฒนาทักษะวิชาชีพ</p>
+
+<p>ขอบคุณที่เยี่ยมชมเว็บไซต์ของเรา</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
